@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+    font-family: "Poppins", sans-serif;
+    /* background:linear-gradient(#172a74, #21a9af); */
+    background-color: #4158d0;
+}
+.content {
+    margin-top: 5%;
+    margin-bottom: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: white;
+    padding: 4rem 5rem 4rem 1rem;
+    box-shadow: 0 5px 5px 0 rgba(1, 25, 87, 0.5);
+    border-radius: 20px;
+}
+.signin-text {
+    font-style: normal;
+    font-weight: 600 !important;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border-color: #4158d0 !important;
+    border-style: solid !important;
+    border-width: 0 0 1px 0 !important;
+    padding: 5px !important;
+    color: #495057;
+    height: auto;
+    border-radius: 0;
+    background-color: white;
+    background-clip: padding-box;
+}
+.form-control:focus {
+    color: #495057;
+    background-color: white;
+    border-color: white;
+    outline: 0;
+    box-shadow: none;
+}
+.label {
+    font-size: 14px;
+}
+.btn-class {
+    background-color: #4158d0;
+    color: white;
+    width: 100%;
+}
+.btn-class:hover {
+    background-color: white;
+    border-color: #4158d0;
+    color: #4158d0;
+}
+.container {
+    margin-right: 150px;
+    margin-left: 150px;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #e3e6f0;
+    border-radius: 0.35rem;
+}
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+}
+.container-fluid {
+    width: 80%;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.table {
+    margin-top: 50px;
+    width: 600px;
+    text-align: center;
+}
+.table th,
+td {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.table2 {
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 400px;
+    text-align: center;
+    border: 1px solid #e3e6f0;
+}
+.table2 th,
+td {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* Card Halaman list api & data*/
+.card2 {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+    width: 60%;
+}
+.card-title {
+    padding: 20px 0 0px 0;
+    font-size: 20px;
+    font-weight: 500;
+    color: #4158d0;
+}
+.card2-body {
+    padding: 0 20px 20px 20px;
+}
+.card3 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
